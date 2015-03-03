@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ENV CHROME_BIN /chromium.sh
-ENV DISPLAY localhost:1.0 
+ENV DISPLAY :99
 
 RUN apt-get update \
     && apt-get install -y xvfb chromium \
