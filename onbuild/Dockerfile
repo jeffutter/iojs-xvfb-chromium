@@ -1,4 +1,4 @@
-FROM jeffutter / iojs-xvfb-chromium
+FROM jeffutter/iojs-xvfb-chromium
 MAINTAINER jeff@jeffutter.com
 
 ONBUILD COPY package.json /usr/src/app/
