@@ -1,4 +1,4 @@
-FROM iojs:1.4
+FROM iojs:1.6
 MAINTAINER jeff@jeffutter.com
 
 RUN mkdir -p /usr/src/app
